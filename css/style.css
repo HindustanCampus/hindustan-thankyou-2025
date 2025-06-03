@@ -1,0 +1,902 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/***
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}***/
+@font-face {
+    font-family: 'Metrisch 8';
+    src: url('../webfonts/Metrisch-Regular5.woff2') format('woff2'),
+        url('Metrisch-Regular5.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metrisch 4';
+    src: url('../webfonts/Metrisch-Regular9.woff2') format('woff2'),
+        url('../webfonts/Metrisch-Regular9.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* CSS Document */
+h1, h2, h3, h4, h5, h5 {    font-family: 'Metrisch 8';
+  font-weight: 600;
+}
+header {
+  padding: 24px 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  z-index: 9999999999999;
+}
+body {    font-family: 'Metrisch 8';
+  margin: 0;
+  padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.bg-light {
+  background-color: #fff !important;
+}
+.blue-bg {
+  background: #00b7e8;
+  color: #fff;
+}
+.blue-bg p {
+  color: #fff;
+}
+.white-btn {
+  color: #fff;
+  border: solid 1px #fff;
+}
+.blue .fa-angle-right:before {
+  margin: 63px 0 0 0;
+  line-height: 10px;
+  float: left;
+  font-size: 22px;
+}
+a:hover {
+  text-decoration: none;
+}
+*:after, *:before, p a, a {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+/*******300621v1tav*********/
+.iconobx {
+  clear: both;
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin: 11px 0 0 0;
+}
+.iconobx img {
+  width: 35px;
+}
+/**go to top here**/
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  animation: MenuSlideDown .3s linear;
+  -moz-animation: MenuSlideDown .3s linear;
+  -ms-animation: MenuSlideDown .3s linear;
+  -o-animation: MenuSlideDown .3s linear;
+  -webkit-animation: MenuSlideDown .3s linear;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+  background: #fff;
+  border-radius: 0;
+  margin: 0;
+  padding: 2px 0;
+  z-index: 99999;
+}
+.sticky {
+  padding: 0;
+}
+.sticky .logo-name h2 {
+  font-size: 15px;
+  margin: 0px 0 1px 0;
+  padding: 0;
+}
+.sticky .logo-main {
+  max-width: 93px;
+}
+.sticky .logo-2 {
+  width: 30px;
+}
+.sticky .logo-name .appro {
+  margin: 0;
+}
+.sticky .logo-name .tag-line {
+  font-size: 16px;
+  margin-top: 0;
+}
+.trent-ment-btn:hover {
+  color: #000;
+}
+.sticky .search-bar {
+  display: block;
+}
+@-webkit-keyframes MenuSlideDown {
+  0% {
+    top: -48px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes MenuSlideDown {
+  0% {
+    top: -48px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+/** #back-top {
+	position: fixed;
+	bottom: 7px;
+	right: 15px;
+	z-index: 99;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+#back-top a img {
+	margin: 0 auto;
+}
+
+#back-top a:hover {
+	color: #000;
+}
+
+#back-top a i {
+	background: #ff2c2b;
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	font-size: 29px;
+	padding-top: 2px;
+	border: solid 2px #fff;
+	box-shadow: 0px 0px 5px #777;
+
+} **/
+#back-top {
+  height: auto;
+  width: auto;
+  padding: 9px;
+  position: fixed;
+  bottom: 7px;
+  right: 15px;
+  z-index: 999;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#back-top img {
+  width: 25px;
+  display: block;
+  margin: 0 auto;
+}
+#back-top a {
+  font-size: 27px;
+  color: #fff;
+  text-decoration: none;
+  background: #f37c12;
+  background: -moz-linear-gradient(left, #f37c12 0%, #eb4645 100%);
+  background: -webkit-linear-gradient(left, #f37c12 0%, #eb4645 100%);
+  background: linear-gradient(to right, #f37c12 0%, #eb4645 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f37c12', endColorstr='#eb4645', GradientType=1);
+  display: block;
+  padding: 5px;
+  border-radius: 50%;
+  border: solid 2px #fff;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  line-height: 37px;
+}
+/**go to top here end**/
+/*******landingpage code************/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+
+/********header*************/
+header .logoteo {
+    width: 480px;
+    margin: 1% auto;
+    display: block;
+}
+
+/********hidus hinone*************/
+.hinone {
+    position: relative;
+}
+
+.hinone .bannerig {
+    width: 100%;
+    object-fit: cover;
+    height: 653px;
+    border-radius: 50px 0 50px 0;
+}
+
+.hinone  .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.aliemdes {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    font-size: 95px;
+    color: #fff;
+    font-weight: 600;
+	    line-height: 91px;
+}
+
+.aliemdes strong {
+    color: #fc7114;
+}
+
+.fordxe {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    margin: 50px 0;
+    vertical-align: middle;
+}
+.fordxe img, .fordxe .forxe {
+    max-width: 384px;
+	  width: 100%;
+	background: #fff;
+	border-radius: 15px 0;
+	float: right;
+}
+
+/********hidus hintwo*************/
+
+.hintwo {
+    margin: 60px 0 35px;
+}
+
+
+.smallpa {
+    color: #525252;
+    text-align: center;
+    width: 72%;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.smallpa strong {
+    color: #004e99;
+}
+
+.fixe {
+    display: block;
+    margin: 35px 0 0 0;
+}
+.fixe  ul {text-align: center;}
+.fixe li {
+    background: #004e99;
+    color: #fff;
+    width: 32%;
+    min-height: 172px;
+    margin: 0.5%;
+    border-radius: 20px 0 20px 0;
+    text-align: center;
+    padding: 36px 26px 0;
+    font-size: 23px;
+    display: inline-block;
+    vertical-align: top;
+}
+.fixe li img {margin: 0 auto 15px;
+    display: block;
+    width: 71px;}
+
+.fixe li:nth-child(4), .fixe li:nth-child(5) {
+    width: 48.8%;
+    padding: 30px 0;
+    line-height: 26px;
+}
+
+
+.fixe li span {
+    display: block;
+    font-size: 100px;
+    line-height: 77px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.bidiemd   {
+    width: 100%;
+    margin: 30px auto 0;
+    display: block;
+}
+
+.acciterer {
+    position: relative;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 600;
+    color: #525252;
+}
+.acciterer span {
+    display: block;
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+.acciterer::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 95%;
+    background: #525252;
+    top: 40%;
+    left: 0;
+}
+
+/******** hinthree*************/
+.hinthree {    margin-bottom: 40px;}
+.allhead{
+    text-align: center;
+    font-size: 44px;
+    color: #004e99;
+    margin: 0 0 30px 0;
+}
+
+.tabe {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tabe  .align-items-start {
+    text-align: center;
+}
+
+.nav.flex-column.nav-pills  {
+    display: inline-block;
+    width: 49%;
+}
+.tabe  .nav-pills .nav-link {    width: 100%;
+    background: #a4a4a4;
+    color: #f1f1f1;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 38px;
+    margin: 0 0 10px 0;}
+
+.tabe .nav-pills .nav-link.active, .tabe .nav-pills .show>.nav-link {width: 100%;
+    background: #f1f1f1;
+    color: #525252;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 38px;}
+
+.tabe .tab-content {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.tab-content>.tab-pane {
+    background: #f1f1f1;
+    padding: 21px;
+}
+
+.taoxe{
+    text-align: left;
+}
+
+.maihead {
+    color: #004e99;
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    padding: 0 0 0 23px;
+    margin: 0 0 7px 0;
+}
+.maihead span {font-weight: 500;
+    }
+.dmaine {
+    margin: 0 0 0 23px;
+}
+.dubles {
+    display: block;
+    position: relative;
+    padding: 0 0 0 26px;
+    margin: 0 0 3px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #525252;
+}
+
+.maihead::before {
+    content: "\f105";
+	position: absolute; left: 0;
+	    font-family: "Font Awesome 5 Free";
+	    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+	top: 4px;
+}
+
+.dubles::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: url(../images/d-arrow.webp) no-repeat left top / cover;
+    height: 13px;
+    width: 16px;
+    top: 5px;
+}
+
+/********hidus hinfour*************/
+.leboxe {    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+.boxe {
+    display: inline-block;
+    margin: 1%;
+    background: #004e99;
+    color: #fff;
+    min-height: 240px;
+    width: 47%;
+    border-radius: 20px 0 20px 0;
+    padding: 67px 38px 0;
+    text-align: center;
+    vertical-align: top;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.boxe.orghe  {background: #fc7114}
+.boxe span {
+    display: block;
+    font-size: 55px;
+    line-height: 51px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.rboxe {
+    display: inline-block;
+    vertical-align: top;
+    width: 54%;
+    border-left: solid 1px #ccc;
+    padding-left: 22px;
+}
+.buehad {
+    background: #2490bc;
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    margin: 0 0 15px 0;
+    border-radius: 10px 0 10px 0;
+    font-weight: 600;
+    line-height: 73px;
+}
+.owl-nav button {    position: absolute;
+    top: 44%;
+   
+    width: 40px; background: none !important;}
+
+.owl-nav button  img {width: 100%;}
+
+.owl-nav button.owl-prev { left:-15px;}
+.owl-nav button.owl-next { right: -15px;}
+
+
+#recruiters.owl-carousel .owl-item img {width: 30.8%; display: inline-block; vertical-align: top; margin: 1%;}
+#recruiters.owl-carousel .owl-item {text-align: center;}
+
+
+/********hidus hinfive*************/
+
+.hinfive {
+    margin: 60px 0;
+}
+
+.leoade {
+    width: 43%;
+    background: #2490bc;
+    color: #fff;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 100px 100px 50px 50px;
+    border-radius: 30px 0 ;
+    min-height: 530px;
+}
+.heade {
+    font-size: 41px;
+    line-height: 45px;
+    font-weight: 600;
+    margin: 0 0 21px 0;
+}
+.eahdxe .birhe {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.eahdxe p {
+    font-size: 19px;
+    /* font-weight: 400; */
+}
+.btne {
+    display: block;
+    clear: both;
+    width: fit-content;
+    color: #fff;
+    text-decoration: none;
+}
+.btne span {    display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px 0 0;}
+
+.btne img {
+    width: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.riobxe {
+    display: inline-block;
+    width: 61%;
+    vertical-align: middle;
+    margin: 0 0 0 -60px;
+}
+
+#alumni .item {background: #f1f1f1; padding: 20px; border-radius: 20px 0 ;}
+.item  a {text-decoration: none; color: #525252;}
+
+.eise {
+    display: block;
+    margin: 17px 0 0 0;
+}
+.eise span {font-size: 22px; display: block; line-height: 23px; font-weight: 600;}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #2490bc;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fc7114;
+}
+
+/********hidus hinsixand hidus hinsix-two*************/
+
+.hinsix-two{
+    background: #f1f1f1;
+    padding: 34px 0;
+    border-radius: 30px 0;
+}
+.owl-carousel .owl-item .clar img {width: auto; display: inline-block;}
+#news .item {
+    background: #fff;
+    border-radius: 15px 0;
+    padding: 15px;
+    min-height: 421px;
+}
+.owl-carousel .owl-item img.rdase  {border-radius: 15px 0;}
+
+.heae {
+    margin: 26px 0 0 0;
+    display: block;
+    padding: 0 30px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.heae  p {margin: 0;}
+
+.clar {
+    display: block;
+    margin: 0 0 19px 0;
+}
+
+.clar img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.clar span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 7px;
+    font-weight: 200;
+}
+
+/********hidus hineight*************/
+
+.hineight {
+    margin: 60px 0;
+}
+.foes a {
+    display: inline-block;
+    background: #004e99;
+    color: #fff;
+    font-size: 27px;
+    text-decoration: none;
+    width: 23.6%;
+    text-align: center;
+    padding: 16px 10px 10px 10px;
+    margin: 0.5%;
+    border-radius: 15px 0;
+}
+
+.foes a:nth-child(even) {background: #2490bc;}
+
+/********hidus hinnine*************/
+
+.hinnine {
+    position: relative;
+    margin: 0 0 -36px 0;
+}
+
+.hinnine a{
+    display: block;
+    background: #fc7114 ;
+    width: fit-content;
+    padding: 17px 50px 12px ;
+    border-radius: 15px 0 ; 
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    margin: 0 auto;
+}
+
+.hinnine button{
+    display: block;
+    background: #fc7114 !important;
+    width: fit-content;
+    padding: 17px 50px 12px !important;
+    border-radius: 15px 0 !important; 
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    margin: 0 auto;
+}
+
+
+.hinnine a span, .hinnine button span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hinnine a img, .hinnine button img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    margin: 0 0 0 11px;
+}
+
+/********footer*************/
+
+footer {
+    background: #525252;
+    padding: 83px 0 50px;
+    text-align: center;
+    border-radius: 25px 0;
+}
+
+.lodxe{
+    display: inline-block;
+    width: 480px;
+    vertical-align: middle;
+}
+footer p {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin: 0 0 0 32px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/********form popup*************/
+.ofiew img {width: 100%;}
+
+.modal-header{ border: none;
+    margin: 0;
+    padding: 0;} 
+
+.modal-header .btn-close {
+    position: absolute;
+    right: 19px;
+    top: 18px;
+    z-index: 2;
+    background-color: #e5dada;
+	outline: none; box-shadow: none;
+}
+
+.firox .modal-dialog {
+    max-width: max-content;
+    margin: 30px auto;
+}
+
+/********youtube btn*************/
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.btn-close {
+  position:absolute;
+  right:-30px;
+  top:0;
+}
+
+/************thankyou-age***********/
+
+.tamlpage {background: #000;}
+
+.galfterone {
+    background: url("../images/thankyou/thankbg.webp") no-repeat top center #000;
+    background-size: cover;
+    height: 100vh;
+}
+.logosei {
+    width: auto;
+    margin: 5% auto 0;
+    display: block;
+}
+
+.tahkks {
+    display: block;
+    float: right;
+    clear: both;
+	text-align: center;
+    margin: 1% auto 3%;
+    width: 100%;
+}
+.ththe {
+    max-width: 515px;
+    margin: 3% auto 0;
+	width: 80%;
+}
+
+.tahkks p {
+    color: #fff;
+    font-size: 29px;
+    line-height: 35px;
+    margin: 24px 0 0 23px;
+}
+
+.tnode {
+    display: block;
+    margin: 24px 0 0 0;
+}
+
+.tnode a {
+    display: inline-block;
+    background: #881d21;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+    margin: 0 16px 0 0;
+}
+
+.tnode a img {
+    display: inline-block;
+    width: 13px;
+    margin: 0 0 0 6px;
+}
+
+
+.sobce {
+    display: block;
+    margin: 36px 0 0 32px;
+    color: #fff;
+}
+
+.tid {
+    display: inline-block;
+    width: fit-content;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.diede {
+    display: inline-block;
+    margin: 0 0 0 30px;
+}
+.diede a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.diede a span {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    font-size: 20px;
+}
+
+.thanfetr {
+    position: absolute;
+    background: #525252;
+    width: 100%;
+    padding: 15px 0;
+    bottom: 0;
+}
+
+.leode {
+    display: inline-block;
+    width: 70%;
+}
+.leode img { width: 320px;}
+.leode p {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 0 0 17px;
+    line-height: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.socialbx {
+    display: inline-block;
+    vertical-align: middle;
+}
+.socialbx a {
+    display: inline-block;
+    margin: 0 0 0 16px;
+}
+
+ .tamlpage .hinnine {
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+}
+
+
+
+

@@ -1,0 +1,684 @@
+@media screen and (max-width:1920px) {
+ /**** thankyou page code ***/
+    .tahkks {
+        margin: 2% 0 10%;
+    } 
+}
+@media screen and (max-width:1600px) {
+ .smallpa {
+    width: 79%;
+}
+	.fixe li:nth-child(4), .fixe li:nth-child(5) {
+    width: 48.6%;
+        min-height: 202px;
+    }
+	.boxe {
+    min-height: 214px;
+    padding: 50px 38px 0;
+}
+	.leoade {
+    min-height: 482px;
+}
+	#news .item {
+    min-height: 404px;
+}
+	.hineight {
+    margin: 40px 0;
+}
+	.allhead {
+    font-size: 38px;
+}
+	/**** thankyou page code ***/
+.leode {
+    display: inline-block;
+    width: 64%;
+}
+    .tamlpage {
+    background-size: auto;
+}
+
+    .leime {
+        left: -21%;
+    }
+}
+@media screen and (max-width:1366px) {
+	.aliemdes {
+    font-size: 76px;
+    line-height: 72px;
+}
+	/**** thankyou page code ***/
+.leode {
+    display: inline-block;
+    width: 64%;
+}
+    .tamlpage {
+    background-size: auto;
+}
+.ththe {
+    width: 35%;
+}
+.tahkks p {
+    font-size: 26px;
+    line-height: 31px;
+    margin: 12px 0 0 0;
+}
+
+
+    .leime {
+        left: -27%;
+    }
+	    .logosei {
+        margin: 4% auto 0;
+    }
+ 
+}
+@media screen and (max-width:1280px) {
+	    .smallpa {
+        width: 79%;
+        font-size: 24px;
+    }
+	.fixe li {
+    background: #004e99;
+    color: #fff;
+    width: 32%;
+    min-height: 172px;
+    margin: 0.5%;
+    border-radius: 20px 0 20px 0;
+    text-align: center;
+    padding: 36px 26px 0;
+    font-size: 21px;
+
+}
+	.allhead {
+        font-size: 33px;
+    }
+	.tabe .nav-pills .nav-link, .tabe .nav-pills .nav-link.active, .tabe .nav-pills .show>.nav-link {
+    font-size: 24px;
+}
+	.buehad {
+    font-size: 27px;
+}
+	#recruiters.owl-carousel .owl-item img {
+    width: 30.5%;
+}
+	.boxe span {
+    font-size: 39px;
+    line-height: 44px;
+}
+	.boxe {
+        min-height: 187px;
+        padding: 48px 18px 0;
+    }
+	    #news .item {
+        min-height: 388px;
+    }
+	/**** thankyou page code ***/
+        .tahkks {
+        margin: 2% auto 4%;
+    }
+	.logosei {
+    margin: 4% auto 0;
+}
+	.tamlpage .hinnine a {
+    padding: 11px 28px 9px;
+    border-radius: 7px 0;
+    font-size: 16px;
+    margin: 0 auto;
+}
+ 	.tamlpage .hinnine a img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 19px;
+    margin: 0 0 0 11px;
+}
+.lowiher {
+    width: 198px;
+}
+        .leode {
+        width: 57%;
+    }
+
+    .leode p {
+    font-size: 10px;
+    line-height: 13px;
+}
+ 
+}
+@media screen and (max-width:1169px) {
+	    .aliemdes {
+        font-size: 58px;
+        line-height: 58px;
+    }
+	     /**** thankyou page code ***/ 
+     
+    .sobce {
+    display: block;
+    margin: 23px 0 0 0;
+    color: #fff;
+}
+    
+    .diede a img, .socialbx img {width: 40px;}
+  
+}
+@media screen and (max-width:991px) {
+	header .logoteo, .lodxe {
+    width: 306px;
+}
+	    .aliemdes {
+        font-size: 58px;
+        line-height: 58px;
+        display: block;
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+.hinone .bannerig {
+    width: 100%;
+    height: auto;
+	    position: absolute;
+}
+  
+	.hinone .container {
+    position: relative;
+		
+}
+	.fordxe {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 50px 0 0;
+    vertical-align: middle;
+}
+	.hintwo {
+    margin: 0 0 30px;
+}
+	.smallpa {
+        width: 100%;
+        font-size: 17px;
+    }
+	.fixe li span {
+    font-size: 40px;
+    line-height: 35px;
+}
+	    .fixe li {
+        width: 31.7%;
+        min-height: 112px;
+        border-radius: 20px 0 20px 0;
+        padding: 36px 26px 0;
+        font-size: 14px;
+    }
+	.fixe li img {
+    margin: 0 auto 15px;
+    display: block;
+    width: 45px;
+}
+	    .fixe li:nth-child(4), .fixe li:nth-child(5) {
+        width: 48.6%;
+        min-height: 153px;
+    }
+	    #recruiters.owl-carousel .owl-item img {
+        width: 30.4%;
+    }
+	    .buehad {
+        font-size: 21px;
+			    line-height: 51px;
+    }
+	    .boxe {
+        min-height: 137px;
+        padding: 24px 18px 0;
+        font-size: 14px;
+        line-height: 17px;
+    }
+	.heade {
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 600;
+    margin: 0 0 21px 0;
+}
+	.eahdxe .birhe {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 600;
+}
+	.eahdxe p {
+    font-size: 15px;
+    /* font-weight: 400; */
+}
+	    .allhead {
+        font-size: 26px;
+    }
+	.foes a {
+
+    font-size: 22px;
+    width: 23.4%;
+    padding: 16px 10px 10px 10px;
+    border-radius: 15px 0;
+}
+	/**** thankyou page code ***/
+   .tahkks {
+        width: 100%;
+        margin: 10% auto;
+    }
+          .leode {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+	    .leode p {
+        font-size: 10px;
+        line-height: 13px;
+        text-align: left;
+        margin: 0;
+    }
+	.socialbx {
+    margin: 6px auto 0;
+    display: block;
+    text-align: center;
+}
+}
+@media screen and (max-width:767px) {
+	    .fixe li:nth-child(4), .fixe li:nth-child(5) {
+        width: 48.4%;
+        min-height: 153px;
+    }
+	.acciterer span {
+    font-size: 22px;
+}
+	.nav.flex-column.nav-pills {
+    display: block;
+    width: 100%;
+
+	}
+.tabe .tab-content {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+}
+	.tabe {
+    width: 100%;
+    margin: 0 auto;
+}
+	.allhead {
+    margin: 0 0 15px 0;
+}
+	.leboxe {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 0 23px 0;
+}
+	.rboxe {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    border-left: none;
+    padding-left: 0;
+}
+	    .leoade {
+        width: 100%;
+        display: block;
+        min-height: auto;
+        padding: 38px 20px 70px;
+    }
+	.riobxe {
+    display: block;
+    width: 90%;
+    vertical-align: middle;
+    margin: -40px auto 0;
+}
+	.hinfive {
+    margin: 30px 0;
+}
+	.foes a {
+        font-size: 22px;
+        width: 48%;
+        padding: 16px 10px 10px 10px;
+        border-radius: 15px 0;
+    }
+	footer {
+    background: #525252;
+    padding: 61px 0 24px;
+    text-align: center;
+    border-radius: 25px 0;
+}
+	footer p {
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 18px 0 0 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+}
+	
+/**** thankyou page code ***/
+    .thanfetr {
+        bottom: 0;
+    }
+       .tahkks {
+        margin: 10% auto;
+    }
+    .ththe {
+    width: 60%;
+}
+    
+ .diede a img, .socialbx a img {
+    width: 33px;
+}
+.diede {
+        margin: 0 0 10px;
+        display: block;
+}
+    .tnode a {
+    padding: 7px 20px;
+    border-radius: 10px;
+    margin: 10px 0 0;
+}
+    .tahkks p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 15px 0 0 0;
+}
+.tnode {
+    display: block;
+    margin: 5px 0 0 0;
+}
+.sobce {
+    margin: 23px 0 0 0;
+}
+}
+@media screen and (max-width:640px) {
+	    .aliemdes {
+        font-size: 36px;
+        line-height: 39px;
+        display: block;
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+	    .fordxe {
+        margin: 16px 0 0 0;
+    }
+	.fixe {
+    display: block;
+    margin: 18px 0 0 0;
+}
+	    .fixe li {
+        width: 31.5%;
+        min-height: 112px;
+    
+			   font-size: 12px;
+        line-height: 14px;
+    }
+	    .fixe li span {
+        font-size: 25px;
+        line-height: 22px;
+    }
+	    .tabe .nav-pills .nav-link, .tabe .nav-pills .nav-link.active, .tabe .nav-pills .show>.nav-link {
+        font-size: 17px;
+        line-height: 24px;
+    }
+	    .allhead {
+        margin: 0 0 12px 0;
+        font-size: 23px;
+    }
+	.hinnine a {
+    padding: 17px 24px 12px;
+    font-size: 19px;
+}
+	.hinnine a img {
+    width: 20px;
+    margin: 0 0 0 6px;
+}
+	.hineight {
+        margin: 19px 0;
+    }
+	    .foes a {
+        font-size: 17px;
+        width: 22%;
+        padding: 9px 0 7px;
+        border-radius: 15px 0;
+    }
+	.hinsix-two {
+    background: #f1f1f1;
+    padding: 34px 0 10px;
+    border-radius: 30px 0;
+}
+	.heae {
+    margin: 16px 0 0 0;
+    display: block;
+    padding: 0;
+    font-weight: 500;
+    line-height: 24px;
+}
+	.owl-carousel .owl-item .clar img {
+    width: 10px;
+    display: inline-block;
+}
+	.heae p, .clar span {font-size: 12px; line-height: 18px;}
+	    #news .item {
+        min-height: 263px;
+    }
+	.clar span { margin: 0;}
+	.clar {
+    display: block;
+    margin: 0 0 7px 0;
+		
+}
+	.owl-nav button {
+    position: absolute;
+    top: 42%;
+    width: 25px;
+    background: none !important;
+}
+	#news, #recruiters {
+    width: 95%;
+    margin: 0 auto;
+}
+	.eise span {
+    font-size: 14px;
+    display: block;
+    line-height: 18px;
+    font-weight: 600;
+}
+	.eise {
+    display: block;
+    margin: 12px 0 0 0;
+    font-size: 11px;
+}
+	.fordxe img {
+    width: 100%;
+}
+	.hinnine button {
+    background: #fc7114 !important;
+    padding: 14px 27px 10px !important;
+    border-radius: 15px 0 !important;
+    font-size:20px;
+}
+	
+/**** thankyou page code ***/
+.diede a span {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}
+.tid {
+    display: inline-block;
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 300;
+}
+    .tnode a {
+        padding: 7px 11px;
+        border-radius: 8px;
+        margin: 10px 0 0;
+        font-size: 12px;
+    }
+    .ththe {
+        width: 230px   ;
+    }
+.logosei {
+        width: 90%;
+        margin: 29px auto;
+        display: block;
+    }
+.lowiher {
+        width: 158px;
+    }
+	    .leode p {
+        font-size: 12px;
+        line-height: 13px;
+        margin: 17px 0 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:479px) {
+	#alumni .item {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px 0;
+}
+	    .eise span {
+        font-size: 12px;
+        display: block;
+        line-height: 16px;
+        font-weight: 600;
+    }
+	.btn-close {
+    position: absolute;
+    right: 6px;
+    top: -26px;
+    background-color: #fff;
+    opacity: 1;
+}
+	    .heae p, .clar span {
+        font-size: 11px;
+        line-height: 14px;
+			margin: 0;
+    }
+	    #news .item {
+        min-height: 228px;
+    }
+	    .hinnine a {
+        padding: 9px 24px 6px;
+			font-size: 13px;
+	}
+	.hinnine {
+    position: relative;
+    margin: 0 0 -19px 0;
+}
+	    .foes a {
+        font-size: 14px;
+        width: 22%;
+        padding: 4px 0 2px;
+        border-radius: 8px 0;
+    }
+	.hinone .bannerig {
+    border-radius: 20px 0;
+}
+	header {
+    padding: 12px 0;
+}
+	 .fixe li:nth-child(4), .fixe li:nth-child(5) {
+        padding-top: 21px;
+        line-height: 15px;
+        min-height: auto;
+    }
+	    .acciterer span {
+        font-size: 13px;
+			    padding: 0 10px;
+    }
+	.acciterer::before {
+    height: 1px;
+    top: 42%;
+}
+	.maihead {
+    font-size: 18px;
+    padding: 0 0 0 13px;
+}
+	
+	.dubles {
+    padding: 0 0 0 23px;
+    margin: 0 0 3px 0;
+    font-size: 14px;
+}
+	.dmaine {
+    margin: 0 0 0 11px;
+}
+	.dubles::before {
+    height: 9px;
+    width: 12px;
+    top: 4px;
+}
+	    .boxe span {
+        font-size: 28px;
+        line-height: 32px;
+    }
+	    .hinnine a img {
+        width: 14px;
+        margin: 0 0 0 6px;
+    }
+	#back-top a {
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 50%;
+    border: solid 1px #fff;
+    height: 35px;
+    width: 35px;
+    outline: none;
+    line-height: 27px;
+}
+	    .hinnine button {
+        background: #fc7114 !important;
+        padding: 14px 20px 10px !important;
+        border-radius: 8px 0 !important;
+        font-size: 14px;
+    }
+	footer {
+        border-radius: 12px 0;
+    }
+	/**** thankyou page code ***/
+    .tid {
+        display: block;
+        width: fit-content;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0 0 15px 0;
+    }
+    .leode p {
+        font-size: 10px;
+        line-height: 13px;
+        margin: 12px 0 0 0;
+    }
+    .leode {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+ 
+}
+@media screen and (max-width:440px) {
+	.fixe li {
+        width: 31.3%;
+        min-height: 112px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+	    .fixe li:nth-child(4), .fixe li:nth-child(5) {
+        width: 48%;
+        min-height: auto;
+    }
+	.aliemdes {
+        font-size: 30px;
+        line-height: 34px;
+        display: block;
+        width: 100%;
+        margin: 35px 0 0 0;
+    }
+	    #recruiters.owl-carousel .owl-item img {
+        width: 30.2%;
+    }
+ 
+}
+@media screen and (max-width:380px) {}
+@media screen and (max-width:359px) {}
+@media screen and (max-width:320px) {}
